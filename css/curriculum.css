@@ -1,0 +1,35 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+.nombre{
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.linkedin{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.link_redes{
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.fa-facebook-official:hover{
+  color: #3b5998;
+}
+
+.fa-linkedin:hover{
+  color: #007bb5;
+}
+
+.fa-twitter:hover{
+  color: #55acee;
+}
+
+.fa-github:hover{
+  color: #000000;
+}
