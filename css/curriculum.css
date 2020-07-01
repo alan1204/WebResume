@@ -1,35 +1,69 @@
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
 
-.nombre{
-  color: #FFFFFF;
+.nombre {
+  color: #ffffff;
   text-align: center;
   margin: 0 auto;
   font-size: 30px;
 }
 
-.linkedin{
+.linkedin {
   margin: 0 auto;
   text-align: center;
 }
 
-.link_redes{
+.link_redes {
   text-decoration: none;
   font-size: 25px;
   margin-left: 10px;
 }
 
-.fa-facebook-official:hover{
+.fa-facebook-official:hover {
   color: #3b5998;
 }
 
-.fa-linkedin:hover{
+.fa-linkedin:hover {
   color: #007bb5;
 }
 
-.fa-twitter:hover{
+.fa-twitter:hover {
   color: #55acee;
 }
 
-.fa-github:hover{
+.fa-github:hover {
   color: #000000;
+}
+
+.btnLanguage {
+  display: flex;
+  float: right;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+.btnLanguage img {
+  margin-left: 5px;
+}
+
+.btnResume {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+.btnResume img {
+  margin-left: 5px;
 }
